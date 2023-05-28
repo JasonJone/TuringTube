@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+body{
+    /* background-color: azure; */
+}
+header{
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Pacifico', cursive;
+    /* color: darkred; */
+    color: rgb(73, 9, 146);
+    display: inline;
+    font-size: 4em;
+}
+.container{
+    background-image: linear-gradient(to right, rgb(243, 198, 198),rgb(232, 252, 232));
+    padding: 50px 1px 50px 1px;
+    border: 2px solid black;
+    width:62%;
+    /* display: ab; */
+    /* float: ; */
+    position: sticky;
+    /* top:100px; */
+    left: 240px;
+    text-align: center;
+}
+#header2{
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Ubuntu', sans-serif;
+margin-top: -30px;
+position: sticky;
+/* left: 200px; */
+margin-left: 110px;
+color: rgb(73, 9, 146);
+
+}
+#header3{
+
+   
+    font-weight:bolder;
+   text-transform:uppercase;
+    /* font-family: 'Righteous'; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: white;
+    margin-top: -15px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: crimson;
+}
+.star{
+    font-size: 68px;
+    color: brown;
+}
+.lefti{
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Concert One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800 ;
+    font-size: 25px;
+}
+.center{
+    font-size: 29px;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 50px;
+}
+.centi{
+    border-radius:100%;
+    padding: 8px;
+    background-color: red;
+    font-size: 33px;
+
+}
+.days{
+
+    margin-top: 40px;
+}
+.item{
+    list-style-type: none;
+    display: inline;
+    margin:1px 20px 1px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+
+    font-size: 28px;
+    color: white;
+    border-radius: 50%;
+    padding: 10px 22px 10px 22px;
+
+}
+#item1{
+    background-color: red;
+    /* border: 0vmax; */
+}
+#item2{
+    background-color: rgb(59, 59, 248);
+}
+.itemW{
+    list-style-type: none;
+    display: inline;
+    margin:1px 21px 1px 21px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 28px;
+    color: brown;
+    border-radius: 50%;
+    padding: 10px 24px 10px 24px;
+    background-color: rgb(204, 127, 194);
+
+
+}
+.itemX{
+
+    margin:1px 18px 1px 18px;
+}
+.itemY{
+    margin:1px 13px 1px 13px;
+    padding: 10px 23px 10px 23px;
+
+
+}
+.itemZ{
+    margin:1px 17px 1px 17px;
+    padding: 10px 22px 10px 22px;
+
+
+}
+.itemT{
+    margin:1px 16px 1px 16px;
+    padding: 10px 22px 10px 22px;
+
+
+
+}
+.js{
+    background-color: azure;
+}

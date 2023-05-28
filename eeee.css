@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+}
+#fst{
+    color:yellowgreen;
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    margin-bottom: 19px;
+
+    width:100%;
+    padding-bottom: 14px;
+    margin-top: -63px;
+    border-bottom: 1px solid rgb(223, 221, 221);
+}
+#sec{
+    color: rgb(243, 65, 65);
+    /* background-color: navy; */
+    border-radius: 12px;
+    margin-top:-13px;
+    margin-left: -13px;
+    padding: 0px  13px 1px 13px;
+    
+}
+.de{
+    margin-bottom: -5px;
+    /* border: 2px solid black; */
+    font-family: impact;
+    margin-top: 4px;
+    margin-left: 32px;
+}
+section{
+    font-size: 36px;
+    font-family: consolas;
+    /* font-style: oblique; */
+    margin-left: 12px;
+    font-weight: 1000;
+/* box-shadow: 34px solid black; */
+
+}
+.de{
+    display: inline;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: dee 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes dee{
+    from{
+        text-shadow: 3px 3px 4px rgb(20, 19, 19);
+    }
+    to{
+        text-shadow: 3px 3px 4px rgb(233, 245, 233);
+    }
+}
+#de2{
+    margin-left: 130px;
+    display: inline;
+    padding-top: -5px;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    border-radius: 33px;
+    
+}
+#search{
+    border:1px solid rgb(80, 76, 76);
+    /* padding: 5px 102px 5px 102px; */
+    width:500px;
+    /* height: 48px; */
+   padding: 12px 10px 12px 17px;
+    /* margin-left: 23px; */
+    font-size: 18px;
+    border-radius: 43px;
+    /* border: none; */
+
+    /* margin-top:-90px; */
+
+}
+#search:focus{
+    outline: none;
+}
+#de2:hover{
+    color: black;
+}
+#se{
+    /* border: 1px solid black; */
+    margin-top: 23px;
+}
+#up{
+    margin-left:23px;
+    padding: 6px;
+    margin-bottom: -15px;
+    cursor: pointer;
+width: 30px;
+}
+#up:hover{
+    background-color: rgb(240, 191, 191);
+    border-radius: 100%;
+}
+#icons{
+    margin-top: 5px;
+    margin-left: 160px;
+    margin-bottom: 10px;
+
+}
+.sidebar{
+    width:200px;
+    position: fixed;
+    /* border-top: 1px solid rgb(241, 234, 234); */
+    background-color: white;
+    padding-left: 10px;
+    margin-top: 20px;
+
+    float:left;
+/* padding-right: 34px; */
+    /* border-right: 1px solid rgb(150, 149, 149); */
+}
+.ite{
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+    margin-top:3px;
+    margin-right: 3px;
+    padding-left:45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8px;
+    cursor: pointer;
+    /* margin-right: 5px; */
+    font-family: Arial;
+}
+.ite:hover{
+color: white;
+transition: 0.1s;
+/* font-weight: bold; */
+border-radius: 18px;
+
+background-color: rgb(243, 211, 211);
+}
+.js{
+    background-color: rgb(253, 224, 224);
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+}
+video{
+    margin-left: 12px;
+ border:2px solid wheat;
+ border-radius: 23px;
+ margin-top: 30px;
+    margin-right: 12px;
+ 
+}
+.videos{
+    background-color: rgb(255, 255, 255);
+    /* position: absolute; */
+    margin-left: 250px;   margin-top: 62px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+#searchy{
+width: 34px;
+outline-color: aliceblue;
+margin-left: 5px;
+margin-bottom: -15px;
+background-color: rgb(253, 231, 231);
+border-radius: 100%;
+cursor: pointer;
+padding: 3px;
+}
+.books
+{
+    /* border: 2px solid black; */
+    width: 75%;
+    height: 2000px;
+    margin-left: 20%;
+    border-radius: 15px;
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.books li{
+    list-style-type: none;
+    font-family: Impact;
+    font-size: 16px;
+    display: inline-block;
+    border: 2px solid wheat;
+    border-radius: 13px;
+
+    margin-left: 30px;
+    margin-right: 10px;
+    
+    padding: 10px;
+    margin-top: 0px;
+    opacity: 0.9;
+    margin-bottom: 12px;
+}
+.books li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.books li a{
+    cursor: pointer;
+    color: red;
+}
+
+
+
+#poster{
+    display: block;
+    margin-left: 12px;
+    size: 4px;
+    width: 140px;
+    border: 2px solid black;
+}
+#lo{
+    margin-top: 06px;
+    display: flex;
+    text-align: center;
+    float: center;
+}
+.txt{
+    text-align: center;
+    margin-left: 6px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
